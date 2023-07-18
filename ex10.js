@@ -6,5 +6,5 @@ let prompt = require('prompt-sync')();
 let numero;
 
 while (numero !== 0) {
-  numero = parseInt(prompt("Digite um número (digite 0 para sair): "));
+  numero = parseInt(prompt("Digite um número ou 0 para sair: "));
 }

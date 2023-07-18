@@ -9,5 +9,4 @@ while (num >= 0) {
   console.log(num);
   num--; 
 }
-
 console.log("Contagem regressiva concluída!");
