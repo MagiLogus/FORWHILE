@@ -6,7 +6,7 @@ let prompt = require('prompt-sync')();
 let tabuada = parseInt(prompt("Digite o numero da tabuada desejada: "));
 
 if (!isNaN(tabuada)) {
-    for (let num = 0; num < 11; num++) {
+    for (let num = 0; num <= 10; num++) {
         console.log(`${tabuada} x ${num} =  ${(tabuada * num)}`);
     }
 } else {
